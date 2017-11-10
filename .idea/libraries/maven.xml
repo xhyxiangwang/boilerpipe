@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="maven">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.m2/repository/org/apache/maven" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/.m2/repository/org/apache/maven" recursive="false" />
+  </library>
+</component>

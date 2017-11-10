@@ -38,7 +38,7 @@ import com.kohlschutter.boilerpipe.BoilerpipeProcessingException;
 import com.kohlschutter.boilerpipe.document.Image;
 import com.kohlschutter.boilerpipe.document.TextBlock;
 import com.kohlschutter.boilerpipe.document.TextDocument;
-import com.kohlschutter.boilerpipe.org.cyberneko.html.HTMLConfiguration;
+import org.cyberneko.html.HTMLConfiguration;
 
 /**
  * Extracts the images that are enclosed by extracted content.
@@ -76,7 +76,6 @@ public final class ImageExtractor {
    * ).
    * 
    * @param doc The processed {@link TextDocument}.
-   * @param origHTML The original HTML document.
    * @return A List of enclosed {@link Image}s
    * @throws BoilerpipeProcessingException
    */
@@ -92,8 +91,6 @@ public final class ImageExtractor {
    * Fetches the given {@link URL} using {@link HTMLFetcher} and processes the retrieved HTML using
    * the specified {@link BoilerpipeExtractor}.
    * 
-   * @param doc The processed {@link TextDocument}.
-   * @param is The original HTML document.
    * @return A List of enclosed {@link Image}s
    * @throws BoilerpipeProcessingException
    */

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/nekohtml/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boilerpipe-demo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boilerpipe-common/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="nekohtml-1.9.13" level="project" />
+    <orderEntry type="library" name="xercesImpl-2.9.1" level="project" />
+    <orderEntry type="library" name="junit-4.11" level="project" />
+    <orderEntry type="library" name="log4j-1.2.17" level="project" />
+    <orderEntry type="library" name="maven" level="project" />
+  </component>
+</module>
