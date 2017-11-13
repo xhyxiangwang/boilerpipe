@@ -2,35 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29c964d2-9d40-4e53-b3fe-b07c601ef8c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleSentencesExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleSentencesExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor$1.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CommonExtractors.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CommonExtractors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/KeepEverythingWithMinKWordsExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/KeepEverythingWithMinKWordsExtractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$1.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$2.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$Implementation.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$Implementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$TagAction.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$TagAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$1.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$Implementation.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$Implementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$TagAction.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$TagAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor.class" afterPath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/WriteFile.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/BoilerpipeDocumentSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/BoilerpipeExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/BoilerpipeFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/BoilerpipeInput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/BoilerpipeProcessingException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/conditions/TextBlockCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/HTMLHighlightDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/Oneliner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/UsingSAX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/document/Image.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/document/TextBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/document/TextDocument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/document/TextDocumentStatistics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/estimators/SimpleEstimator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ArticleSentencesExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/CommonExtractors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/ExtractorBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/KeepEverythingExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/KeepEverythingWithMinKWordsExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/LargestContentExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/extractors/NumWordsRulesExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/debug/PrintDebugFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/DensityRulesClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/HeuristicFilterBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/IgnoreBlocksAfterContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/IgnoreBlocksAfterContentFromEndFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/KeepLargestFulltextBlockFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/MinFulltextWordsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/NumWordsRulesClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/english/TerminatingBlocksFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/AddPrecedingLabelsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/ArticleMetadataFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/BlockProximityFusion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/ContentFusion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/DocumentTitleMatchClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/ExpandTitleToContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/KeepLargestBlockFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/LabelFusion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/LargeBlockSameTagLevelToContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/ListAtEndFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/SimpleBlockFusionProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/heuristics/TrailingHeadlineToBoilerplateFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/BoilerplateBlockFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/InvertedFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/LabelToBoilerplateFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/LabelToContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/MarkEverythingBoilerplateFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/MarkEverythingContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/MinClauseWordsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/MinWordsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/SplitParagraphBlocksFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/SurroundingToContentFilter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/filters/simple/SurroundingToContentFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/labels/ConditionalLabelAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/labels/DefaultLabels.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/labels/LabelAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/BoilerpipeHTMLContentHandler$Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/BoilerpipeHTMLContentHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/BoilerpipeHTMLParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$BlockTagLabelAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$Chained.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions$InlineTagLabelAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/CommonTagActions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/DefaultTagActionMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLDocument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLFetcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$Implementation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter$TagAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/HTMLHighlighter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$Implementation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor$TagAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/ImageExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/InputSourceable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/MarkupTagAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/TagAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/sax/TagActionMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/util/UnicodeTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLElements$Element.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLElements$ElementList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLElements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLTagBalancer$ElementEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLTagBalancer$Info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLTagBalancer$InfoStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/boilerpipe/org/cyberneko/html/HTMLTagBalancer.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleSentencesExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleSentencesExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CommonExtractors.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CommonExtractors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ExtractorBase.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ExtractorBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/KeepEverythingWithMinKWordsExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/KeepEverythingWithMinKWordsExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/HTMLHighlighter.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/HTMLHighlighter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java" afterPath="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java" afterPath="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java" afterPath="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java" />
     </list>
@@ -51,38 +124,74 @@
     <favorites_list name="boilerpipe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ExtractorBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ExtractorBase.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ImageExtractorDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="474">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoilerpipeSAXInput.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java">
+      <file leaf-file-name="WriteFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/WriteFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Oneliner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImageExtractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1098">
+              <caret line="100" column="44" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#662#0" expanded="false" />
+                <element signature="e#1787#1788#0" expanded="false" />
+                <element signature="e#1812#1813#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Oneliner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="522">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#674#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="126" column="56" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,10 +213,12 @@
         <option value="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CanolaExtractor.java" />
         <option value="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/CommonExtractors.java" />
         <option value="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/DefaultExtractor.java" />
-        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java" />
-        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java" />
         <option value="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ExtractorBase.java" />
         <option value="$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java" />
+        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java" />
+        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/writeFile.java" />
+        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/WriteFile.java" />
+        <option value="$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java" />
       </list>
     </option>
   </component>
@@ -141,7 +252,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,18 +320,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerpipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extractors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/org/apache/maven" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -227,7 +416,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="com&#9;PSI&#9;JAVA://com.kohlschutter.boilerpipe.extractors.CommonExtractors&#10;HTMLConfiguration&#9;PSI&#9;JAVA://org.cyberneko.html.HTMLConfiguration" />
   </component>
-  <component name="RunManager" selected="Application.ImageExtractorDemo">
+  <component name="RunManager" selected="Application.Oneliner">
     <configuration default="false" name="ImageExtractorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -236,6 +425,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.kohlschutter.boilerpipe.demo.ImageExtractorDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="boilerpipe" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Oneliner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kohlschutter.boilerpipe.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.kohlschutter.boilerpipe.demo.Oneliner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -507,12 +716,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.ImageExtractorDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Oneliner" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ImageExtractorDemo" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Oneliner" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImageExtractorDemo" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -555,32 +766,60 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Freeline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Freeline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Freeline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -598,6 +837,37 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#662#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#1812#1813#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#674#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,9 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,21 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="94" column="57" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/DefaultTagActionMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,10 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-          <folding>
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,35 +1001,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java">
+    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -793,11 +1019,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/BoilerpipeSAXInput.java">
+    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/sax/ImageExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="1098">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#662#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#1812#1813#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/extractors/ArticleExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-common/src/main/java/com/kohlschutter/boilerpipe/conditions/TextBlockCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="126" column="56" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/boilerpipe/com/kohlschutter/boilerpipe/demo/Oneliner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/ImageExtractorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/WriteFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerpipe-demo/src/main/java/com/kohlschutter/boilerpipe/demo/Oneliner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#674#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

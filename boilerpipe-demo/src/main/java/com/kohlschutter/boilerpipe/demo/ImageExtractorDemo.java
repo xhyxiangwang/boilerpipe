@@ -31,7 +31,11 @@ import com.kohlschutter.boilerpipe.sax.ImageExtractor;
  */
 public final class ImageExtractorDemo {
   public static void main(String[] args) throws Exception {
-    URL url = new URL("http://www.spiegel.de/wissenschaft/natur/0,1518,789176,00.html");
+    URL url = new URL(
+//            "http://www.sina.com.cn/"
+            "http://news.sina.com.cn/c/nd/2017-11-13/doc-ifynstfh6707455.shtml"
+//            "http://www.spiegel.de/wissenschaft/natur/0,1518,789176,00.html"
+    );
 //    URL url = new URL("http://www.spiegel.de/#ref=page-overscroll");
 
 
@@ -47,8 +51,11 @@ public final class ImageExtractorDemo {
 
     // automatically sorts them by decreasing area, i.e. most probable true positives come first
     Collections.sort(imgUrls);
+    System.out.println(url);
 
     for (Image img : imgUrls) {
+
+      System.out.println(imgUrls);
       System.out.println("* " + img);
     }
 
