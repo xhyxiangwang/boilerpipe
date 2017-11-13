@@ -30,6 +30,8 @@ import com.kohlschutter.boilerpipe.estimators.SimpleEstimator;
  * A full-text extractor trained on <a href="http://krdwrd.org/">krdwrd</a> <a href
  * ="https://krdwrd.org/trac/attachment/wiki/Corpora/Canola/CANOLA.pdf">Canola </a>. Works well with
  * {@link SimpleEstimator}, too.
+ * 对准krdwrd和CANOLA的全文提取器，也可以很好的使用SimpleEstimator
+ *
  */
 public class CanolaExtractor extends ExtractorBase {
   public static final CanolaExtractor INSTANCE = new CanolaExtractor();
@@ -48,6 +50,8 @@ public class CanolaExtractor extends ExtractorBase {
 
   /**
    * The actual classifier, exposed.
+   * 实际过滤器，公开的
+   *
    */
   public static final BoilerpipeFilter CLASSIFIER = new BoilerpipeFilter() {
 

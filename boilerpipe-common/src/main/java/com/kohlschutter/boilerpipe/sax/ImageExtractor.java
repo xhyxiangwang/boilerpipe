@@ -42,6 +42,7 @@ import org.cyberneko.html.HTMLConfiguration;
 
 /**
  * Extracts the images that are enclosed by extracted content.
+ * 提取已经提取的内容包含的图片
  */
 public final class ImageExtractor {
   public static final ImageExtractor INSTANCE = new ImageExtractor();
@@ -60,7 +61,7 @@ public final class ImageExtractor {
 
   /**
    * Processes the given {@link TextDocument} and the original HTML text (as a String).
-   * 
+   * 处理给定的 TextDocument 和原始的HTML文本（作为一种字符串）
    * @param doc The processed {@link TextDocument}.
    * @param origHTML The original HTML document.
    * @return A List of enclosed {@link Image}s
@@ -73,6 +74,7 @@ public final class ImageExtractor {
 
   /**
    * Processes the given {@link TextDocument} and the original HTML text (as an {@link InputSource}
+   * InputSource类是SAX规范的一部分，它能适应供SAX分析器使用的几种输入形式的任何之一。
    * ).
    * 
    * @param doc The processed {@link TextDocument}.
@@ -90,7 +92,7 @@ public final class ImageExtractor {
   /**
    * Fetches the given {@link URL} using {@link HTMLFetcher} and processes the retrieved HTML using
    * the specified {@link BoilerpipeExtractor}.
-   * 
+   * 使用 HTMLFetcher 获取给定 URL ，然后使用指定的 BoilerpipeExtractor 过程检索HTML
    * @return A List of enclosed {@link Image}s
    * @throws BoilerpipeProcessingException
    */

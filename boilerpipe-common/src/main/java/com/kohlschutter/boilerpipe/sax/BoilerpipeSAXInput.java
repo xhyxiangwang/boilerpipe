@@ -34,7 +34,7 @@ public final class BoilerpipeSAXInput implements BoilerpipeInput {
 
   /**
    * Creates a new instance of {@link BoilerpipeSAXInput} for the given {@link InputSource}.
-   * 
+   * 为给定的{@link InputSource}创建{@link BoilerpipeSAXInput}的新实例
    * @param is
    * @throws SAXException
    */
@@ -44,6 +44,7 @@ public final class BoilerpipeSAXInput implements BoilerpipeInput {
 
   /**
    * Retrieves the {@link TextDocument} using a default HTML parser.
+   * 使用默认的HTML解析器检索 TextDocument
    */
   public TextDocument getTextDocument() throws BoilerpipeProcessingException {
     return getTextDocument(new BoilerpipeHTMLParser());
@@ -51,7 +52,7 @@ public final class BoilerpipeSAXInput implements BoilerpipeInput {
 
   /**
    * Retrieves the {@link TextDocument} using the given HTML parser.
-   * 
+   * 使用给定的HTML解析器检索 TextDocument
    * @param parser The parser used to transform the input into boilerpipe's internal representation.
    * @return The retrieved {@link TextDocument}
    * @throws BoilerpipeProcessingException

@@ -24,6 +24,7 @@ import com.kohlschutter.boilerpipe.filters.simple.SplitParagraphBlocksFilter;
 
 /**
  * A full-text extractor which is tuned towards extracting sentences from news articles.
+ * 从新闻文章中提取句子的全文抽取器。
  */
 public final class ArticleSentencesExtractor extends ExtractorBase {
   public static final ArticleSentencesExtractor INSTANCE = new ArticleSentencesExtractor();

@@ -27,6 +27,7 @@ import com.kohlschutter.boilerpipe.filters.simple.MinWordsFilter;
  * A full-text extractor which extracts the largest text component of a page. For news articles, it
  * may perform better than the {@link DefaultExtractor}, but usually worse than
  * {@link ArticleExtractor}.
+ *提取页面的最大文本组件的全文提取器。对于新闻文章,可能会比 DefaultExtractor 更好，但通常会比 ArticleExtractor 更差
  */
 public final class KeepEverythingWithMinKWordsExtractor extends ExtractorBase {
 

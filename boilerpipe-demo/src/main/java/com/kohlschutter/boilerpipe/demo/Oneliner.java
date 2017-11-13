@@ -24,6 +24,7 @@ import com.kohlschutter.boilerpipe.extractors.ArticleExtractor;
 /**
  * Demonstrates how to use Boilerpipe to get the main content as plain text. Note: In real-world
  * cases, you'd probably want to download the file first using a fault-tolerant crawler.
+ * 在现实情况下，你或许希望首先使用容错爬虫来下载文件
  * 
  * @see HTMLHighlightDemo if you need HTML as well.
  */

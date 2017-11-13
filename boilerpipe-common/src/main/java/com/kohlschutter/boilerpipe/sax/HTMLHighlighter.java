@@ -43,6 +43,7 @@ import org.cyberneko.html.HTMLConfiguration;
 /**
  * Highlights text blocks in an HTML document that have been marked as "content" in the
  * corresponding {@link TextDocument}.
+ *
  */
 public final class HTMLHighlighter {
 

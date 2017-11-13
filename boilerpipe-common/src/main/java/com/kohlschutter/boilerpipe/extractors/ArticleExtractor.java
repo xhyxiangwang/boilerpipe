@@ -34,12 +34,14 @@ import com.kohlschutter.boilerpipe.filters.simple.BoilerplateBlockFilter;
 /**
  * A full-text extractor which is tuned towards news articles. In this scenario it achieves higher
  * accuracy than {@link DefaultExtractor}.
+ * 全文提取器是根据新闻文章调整的。在这种情况下，它达到的精确度高于 DefaultExtractor
  */
 public final class ArticleExtractor extends ExtractorBase {
   public static final ArticleExtractor INSTANCE = new ArticleExtractor();
 
   /**
    * Returns the singleton instance for {@link ArticleExtractor}.
+   * 返回 ArticleExtractor 的单例
    */
   public static ArticleExtractor getInstance() {
     return INSTANCE;

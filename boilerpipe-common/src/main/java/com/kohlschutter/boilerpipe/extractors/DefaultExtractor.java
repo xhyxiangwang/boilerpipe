@@ -25,6 +25,7 @@ import com.kohlschutter.boilerpipe.filters.heuristics.SimpleBlockFusionProcessor
 
 /**
  * A quite generic full-text extractor.
+ * 一个相当通用的全文提取器
  */
 public class DefaultExtractor extends ExtractorBase {
   public static final DefaultExtractor INSTANCE = new DefaultExtractor();

@@ -55,7 +55,7 @@ public abstract class ExtractorBase implements BoilerpipeExtractor {
 
   /**
    * Extracts text from the HTML code available from the given {@link InputSource}.
-   * 
+   * 从给定的 InputSource 提供的HTML代码中提取文本
    * @param is The InputSource containing the HTML
    * @return The extracted text.
    * @throws BoilerpipeProcessingException
