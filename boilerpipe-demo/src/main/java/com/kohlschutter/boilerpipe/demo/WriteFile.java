@@ -2,11 +2,8 @@ package com.kohlschutter.boilerpipe.demo;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
 
 /**
  * Created by xianghongyan on 2017/11/13.

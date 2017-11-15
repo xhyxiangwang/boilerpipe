@@ -32,8 +32,12 @@ import com.kohlschutter.boilerpipe.sax.ImageExtractor;
 public final class ImageExtractorDemo {
   public static void main(String[] args) throws Exception {
     URL url = new URL(
-//            "http://www.sina.com.cn/"
-            "http://news.sina.com.cn/c/nd/2017-11-13/doc-ifynstfh6707455.shtml"
+//            "https://weibo.com/jasonxufeng777777?refer_flag=1005050010_&is_hot=1"
+            "http://www.ftchinese.com/story/001075033#adchannelID=1300"
+
+            //            "http://www.sina.com.cn/"
+
+//            "http://news.sina.com.cn/c/nd/2017-11-13/doc-ifynstfh6707455.shtml"
 //            "http://www.spiegel.de/wissenschaft/natur/0,1518,789176,00.html"
     );
 //    URL url = new URL("http://www.spiegel.de/#ref=page-overscroll");

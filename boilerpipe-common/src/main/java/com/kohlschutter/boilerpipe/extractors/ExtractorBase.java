@@ -72,7 +72,8 @@ public abstract class ExtractorBase implements BoilerpipeExtractor {
    * Extracts text from the HTML code available from the given {@link URL}. NOTE: This method is
    * mainly to be used for show case purposes. If you are going to crawl the Web, consider using
    * {@link #getText(InputSource)} instead.
-   * 
+   * 从给定URL中提供的HTML代码中提取文本。 注意：此方法主要用于展示用途。
+   * 如果您要抓取Web，请考虑使用getText（InputSource）。
    * @param url The URL pointing to the HTML code.
    * @return The extracted text.
    * @throws BoilerpipeProcessingException
